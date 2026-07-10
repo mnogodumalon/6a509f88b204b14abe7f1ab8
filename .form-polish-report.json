@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Trainer": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten-Entity. Keine Berechnungen sinnvoll. Vorname und Nachname sind erforderliche Felder ohne vordefinierte Werte. Der Stundensatz ist optional und wird auf Kurseinheiten-Ebene verwendet."
+    },
+    "Kurseinheiten": {
+      "placeholders_set": 8,
+      "defaults_keys": ["kursdatum", "abgerechnet"],
+      "computed_keys": ["stundensatz", "honorar"],
+      "reason": "Abrechnung Trainer für Kurseinheiten. Stundensatz wird automatisch vom Trainer-Stammdatenfeld gelesen (applookup). Honorar berechnet sich aus Dauer × Stundensatz (ARCHETYP 2 — Produkt). Kursdatum erhält automatisch die aktuelle Zeit."
+    }
+  }
+}

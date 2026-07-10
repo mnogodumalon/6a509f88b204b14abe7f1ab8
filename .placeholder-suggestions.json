@@ -1,0 +1,18 @@
+{
+  "TrainerDialog.tsx": {
+    "vorname": "z. B. Anna",
+    "nachname": "z. B. Schmidt",
+    "email": "anna.schmidt@example.com",
+    "standard_stundensatz": "z. B. 45"
+  },
+  "KurseinheitenDialog.tsx": {
+    "kursdatum": "Wann findet der Kurs statt?",
+    "kursbezeichnung": "z. B. Yoga Anfänger",
+    "trainer": "Welcher Trainer?",
+    "dauer_stunden": "z. B. 1,5",
+    "stundensatz": "Stundensatz (€)",
+    "honorar": "Wird automatisch berechnet",
+    "abgerechnet": "Nicht abgerechnet",
+    "bemerkung": "Besonderheiten, Anmerkungen..."
+  }
+}

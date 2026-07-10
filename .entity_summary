@@ -1,0 +1,3 @@
+- Trainer (trainer): vorname[string/text], nachname[string/text], email[string/email], standard_stundensatz[number]
+- Kurseinheiten (kurseinheiten): kursdatum[date/datetimeminute], kursbezeichnung[string/text], trainer[applookup/select], dauer_stunden[number], stundensatz[number], honorar[number], abgerechnet[bool], bemerkung[string/textarea]
+  → trainer links to app_id 6a509f73416a75cf1f7d44e6
